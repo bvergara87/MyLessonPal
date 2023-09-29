@@ -1,0 +1,23 @@
+.previewText .ql-editor {
+  height: 93% !important;
+  overflow-y: scroll;
+  border: none !important;
+  margin-top: 35px;
+}
+
+.previewText .ql-container {
+  /* height: 55vh !important; */
+  border: none !important;
+}
+.previewText .ql-toolbar {
+  border: none !important;
+  z-index: 10;
+  background-color: white;
+  position: absolute;
+  width: 65%;
+  top: 0;
+}
+
+.previewText.mobile .ql-toolbar {
+  width: 94%;
+}
