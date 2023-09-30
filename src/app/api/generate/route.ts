@@ -76,19 +76,22 @@ export async function POST(req: Request) {
       })
       .catch(console.error);
 
+    let str = "";
+    //@ts-ignore
+    const split = result.text.split(/\n/g);
+    for (let i = 0; i < split.length; ++i) {
+      str += `<p>${split[i]}</p>`;
+    }
     outputs.push({
       type,
+      text: str,
       //@ts-ignore
-      text: `<html><p style="white-space: 'pre';">${result.text.replace(
-        /\n/g,
-        "<br/>"
-      )}</p></html>`,
+      plainText: result.text,
       subject,
       topic,
       gradeLevel,
       additionalNotes,
     });
-    //@ts-ignore
   }
   return redis.addGeneration(outputs).then(({ outputs, id }) => {
     return NextResponse.json({
