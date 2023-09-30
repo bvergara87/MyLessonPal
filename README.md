@@ -4,6 +4,8 @@ This is a generative AI tool for teachers and professors.
 
 [Live Demo](https://mylessonpal.com/)
 
+[Usage Dataset](https://docs.google.com/spreadsheets/d/1o0FCAOOyVgperpf3orjkGsaR1m0uWYwK3eztU2IorZI/edit#gid=993444898) [Most Recent 10,000+ Generations]
+
 ## Overview
 
 - 💻 [Stack](#stack)
