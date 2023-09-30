@@ -257,7 +257,6 @@ const Form = ({ isFull, onClose, isPro, userId }: Props) => {
           <VStack w="100%" position="relative">
             <Textarea
               rows={4}
-              // isDisabled={!isPro}
               placeholder={`Add details (e.g number of questions, educational standards to align with, etc.)`}
               value={additionalNotes}
               onChange={(e) => setAdditionalNotes(e.target.value)}

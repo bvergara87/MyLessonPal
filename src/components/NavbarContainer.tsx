@@ -75,50 +75,6 @@ const NavbarCard = ({}: Props) => {
               ></Image>
             </Button>
             <HStack>
-              {/* <Link href="https://about.mylessonpal.com/">
-                  <Button
-                    fontWeight={400}
-                    py={1}
-                    px={3}
-                    variant="ghost"
-                    _hover={{ textDecoration: "underline" }}
-                  >
-                    About this Project
-                  </Button>
-                </Link> */}
-              {/* <Link href="https://about.mylessonpal.com/for-schools">
-                  <Button
-                    fontWeight={400}
-                    py={1}
-                    px={3}
-                    variant="ghost"
-                    _hover={{ textDecoration: "underline" }}
-                  >
-                    For Schools
-                  </Button>
-                </Link>
-                <Link href="https://about.mylessonpal.com/sponsors">
-                  <Button
-                    fontWeight={400}
-                    py={1}
-                    px={3}
-                    variant="ghost"
-                    _hover={{ textDecoration: "underline" }}
-                  >
-                    Sponsors
-                  </Button>
-                </Link>
-                <Link href="https://about.mylessonpal.com/#contact">
-                  <Button
-                    fontWeight={400}
-                    py={1}
-                    px={3}
-                    variant="ghost"
-                    _hover={{ textDecoration: "underline" }}
-                  >
-                    Contact Us
-                  </Button>
-                </Link> */}
               <Link href="https://www.every.org/dexter?utm_campaign=donate-link#/donate/card">
                 <Button
                   fontWeight={400}
@@ -132,79 +88,6 @@ const NavbarCard = ({}: Props) => {
                 </Button>
               </Link>
             </HStack>
-            {/* <Menu direction="rtl">
-                {({ isOpen }) => (
-                  <>
-                    <MenuButton isActive={isOpen} as={Button}>
-                      <HamburgerIcon />
-                    </MenuButton>
-                    <MenuList
-                      p={5}
-                      style={{
-                        background: "#565656",
-                        color: "white",
-                        borderRadius: 10,
-                      }}
-                    >
-                      <VStack align="start">
-                        <Link href="https://about.mylessonpal.com/">
-                          <Button
-                            fontWeight={400}
-                            variant="ghost"
-                            color="white"
-                            _hover={{ textDecoration: "underline" }}
-                          >
-                            About this Project
-                          </Button>
-                        </Link>
-                        <Link href="https://about.mylessonpal.com/for-schools">
-                          <Button
-                            fontWeight={400}
-                            variant="ghost"
-                            color="white"
-                            _hover={{ textDecoration: "underline" }}
-                          >
-                            For Schools
-                          </Button>
-                        </Link>
-                        <Link href="https://about.mylessonpal.com/sponsors">
-                          <Button
-                            fontWeight={400}
-                            variant="ghost"
-                            color="white"
-                            _hover={{ textDecoration: "underline" }}
-                          >
-                            Sponsors
-                          </Button>
-                        </Link>
-                        <Link href="https://about.mylessonpal.com/#contact">
-                          <Button
-                            borderRadius={25}
-                            fontWeight={400}
-                            color="white"
-                            variant="ghost"
-                            _hover={{ textDecoration: "underline" }}
-                          >
-                            Contact Us
-                          </Button>
-                        </Link>
-                        <HStack mt={2} justify="center">
-                          <Link href="https://www.every.org/dexter?utm_campaign=donate-link#/donate/card">
-                            <Button
-                              fontWeight={400}
-                              bg="linear-gradient(90deg, rgba(107,26,205,1) 0%, rgba(115,159,241,1) 100%)"
-                              color="white"
-                              _hover={{ opacity: 1 }}
-                            >
-                              Make a donation
-                            </Button>
-                          </Link>
-                        </HStack>
-                      </VStack>
-                    </MenuList>
-                  </>
-                )}
-              </Menu> */}
           </HStack>
         </Card>
       </HStack>
